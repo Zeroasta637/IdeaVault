@@ -1,0 +1,28 @@
+name: ideavault
+description: Offline idea storage with improvement logic
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  intl: ^0.18.1
+  flutter_native_splash: ^2.3.2
+  table_calendar: ^3.0.9
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  image_path: "assets/appicon.png"
+
+flutter:
+  assets:
+    - assets/
